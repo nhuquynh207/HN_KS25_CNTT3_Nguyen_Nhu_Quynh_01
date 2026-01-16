@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#FFF8E1 ;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    margin:15px auto ;
+    font-size: 15px ;
+
+}
+.card {
+    padding: 20px; ;
+
+}
+
+.banner {
+    position: relative;
+    border-top: 5px solid #FBC02D ;
+    border-bottom: 5px solid #FBC02D ;
+    text-align: center;
+    padding: 45px 20px ;
+    
+}
+
+.banner h1{
+    font-size: 45px;
+}
+
+.banner p{
+    font-size: 20px;
+    margin-bottom: 23px;
+}
+.bar{
+    background-color: #FBC02D;
+    color:#FBC02D;
+    border-radius: 20px;
+    height:5px;
+    width: 170px;
+    text-align: center;
+    margin: 10px auto;
+    border: none;
+}
+
+.button {
+    background-color:#FF6347 ;
+    color:#FFFFFF ;
+    border-radius: 8px;
+    padding: 13px;
+    font-weight: bold;
+    border: 2px solid #FFAE94;
+
+}
+
+.icon:first-child{
+    position: absolute;
+    top:20px ;
+    left:20px ;
+
+}
+
+.icon:nth-child(2){
+    position: absolute;
+    top:20px ;
+    right:20px ;
+}
+
+.icon:last-child{
+    position: absolute;
+    bottom:20px ;
+    right: 40px; 
+}
+
+.content {
+    border: 3px solid #FBC02D;
+    box-shadow: 0px 0px 10px #FBC02D;
+    padding: 20px;
+    margin: 20px;
+    border-radius:10px ;
+    background-color:#FFFFFF ;
+
+}
+
+.mess{
+    background-color:#FFF3C4 ;
+    border-left: 10px solid #2E7D32;
+    border-radius: 7px;
+    padding: 12px;
+    height: 640px;
+    position: relative;
+    
+}
+
+.icons{
+    position: absolute;
+    left: -20px;
+    top: -10px;
+    font-size:25px;
+}
+
+
+.content-title {
+    color: #B71C1C;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+.table {
+    border-color: #F2AB62 ;
+    border-collapse: collapse;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.table-header {
+    background-color: #D32F2F;
+    color: #FFFFFF;
+    height: 60px;
+}
+
+.table-header th{
+    font-size: 18px;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.body-one.table-items td{
+    font-size: 15px;
+    height: 50px;
+    transition: 0.3s;
+}
+
+.body-two.table-items tr{
+    font-size: 15px;
+    height: 44px;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+.table-items td{
+    padding-left: 10px;
+}
+
+.table-items:hover{
+    background-color: #FFF3C4;
+
+}
+
+.market {
+}
+
+.form {
+
+}
+.field {
+    border-radius: 7px;
+    background-color: #FFFBF0;
+    padding:10px ;
+    margin:10px ;
+    width: 100%;
+    border: 1px solid #EFEDE8;
+
+
+}
+
+.box {
+    border-style:dotted ;
+    border-color: #B71C1C;
+    background-color:#FFF3C4 ;
+    border-radius: 7px;
+    padding: 10px;
+
+}
+
+label{
+    font-weight: bold;
+}
+
+.messages {
+    background-color: #FFFBF0;
+    border-radius: 7px;
+    border: 1px solid #EFEDE8;
+    width: 100%;
+    height:100px ;
+    padding: 10px;
+}
+
+
+.send {
+    background-color:#FF6347 ;
+    border-radius: 7px;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    color: white;
+}
+
+.address {
+    border-radius: 7px;
+    border: 2px solid #FBC02D;
+    background-color: #FFFBF0;
+    padding: 30px;
+
+}
+
+.footer {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #4E342E;
+    padding:30px ;
+    border-top: 6px solid #FBC02D;
+}
+
+.nevigation a{
+    text-decoration: none;
+    color:#FBC02D
+}
